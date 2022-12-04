@@ -12,9 +12,9 @@
 <body>
     <h1>Дневник недофронтэндера</h1>
 
-    <img src="programmer-logo.webp" alt="programmer-logo" width="250" class="logo"/>
+    <img src="programmer-logo.webp" alt="programmer-logo" width="250"/>
 
-    <h3 class="h3-why">Зачем это всё нужно?</h3>
+    <h3>Зачем это всё нужно?</h3>
     <div>
         <p>Это, прежде всего, тренировочная веб-площадка для практики навыков веб программирования.</p>
         <p>Здесь я буду вносить изменения, отражающие моё обучение в областях - <em>html</em>, <em>css</em>, <em>js</em> и его фреймворки, а также остальные <strong>backend</strong> вещи.</p>
@@ -23,38 +23,32 @@
         <p>Напоследок, также организован список изученных и изучающихся тем, а также тем, которые захотелось изучить.</p>
         <p>Более подробную информацию обо мне можно найти на странице "Обо мне":</p>
         <p><em><a href="about me.html">Обо мне</a>.</em></p>
-        <p>Код дневника также выложен на странице github - <a href="https://github.com/NeViNez/nedoproger-s_journal " target="_blank">Дневник недофронтэндера</a></p>
+        <p>Код дневника также выложен на странице github - <a href="">Дневник недофронтэндера</a></p>
     </div>
 
     <hr>
 
-    <div class="edu_themes">
-        <div class="bg_lgray">
-            <h4>Изученные темы</h4>
-            <ul class="list">
-                
-            </ul>
-        </div>
-        <div>
-            <h4>Темы в процессе</h4>
-            <ul class="list">
+    <div>
+        <h4>Изученные темы</h4>
+        <ul>
+            
+        </ul>
+        <h4>Темы в процессе</h4>
+        <ul>
             <li>html</li>
             <li>git</li>
-            <li>css</li>
-            </ul>
-        </div>
-        <div class="bg_lgray">
-            <h4>Темы на изучение</h4>
-            <ul class="list">
-                <li>JavaScript</li>
-                <li>React</li>
-                <li>Angular</li>
-                <li>TypeScript</li>
-                <li>Electron/Tauri</li>
-                <li>Python: Django</li>
-                <li>Markdown</li>
-            </ul>
-        </div>
+        </ul>
+        <h4>Темы на изучение</h4>
+        <ul>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Angular</li>
+            <li>TypeScript</li>
+            <li>Electron/Tauri</li>
+            <li>Python: Django</li>
+            <li>Markdown</li>
+        </ul>
     </div>
     <div>
         <h4>Хронология</h4>
@@ -63,31 +57,26 @@
             <li><a href="years/2022.html">2022 год</a></li>
         </ul>
     </div>
-    <div class="bg_lgray">
+    <div>
         <h4>Мои проекты</h4>
         <ol>
-            <li><a href="projects/nedoprogger-s_journal/nedoprogger-s journal.html">Этот дневник</a></li>
+            <li><a href="index.html">Этот дневник</a></li>
         </ol>
     </div>
-    <div class="submit-form">
+    <div>
         <h5>Напишите об этом дневнике что-нибудь!</h5>
         <form action="/">
-            <div>
-                <label for="name">Имя:</label>
-                <input type="text" class="input-area" placeholder="Ваше имя...">
-            </div>
+            <label for="name">Имя:</label>
+            <input type="text" id="name" placeholder="Ваше имя...">
 
-            <div>
-                <label for="text">Сообщение:</label>
-            </div>
+            <br>
 
-            <div>
-                <textarea name="text"  placeholder="Ваше сообщение..."></textarea>
-            </div>
-            
-            <div>
-                <input type="submit" name="submit" id="submit" value="Отправить">
-            </div>
+            <label for="text">Сообщение:</label>
+            <textarea name="text" id="text" cols="75" rows="4" placeholder="Ваше сообщение..."></textarea>
+
+            <br>
+
+            <input type="submit" name="submit" id="submit" value="Отправить">
         </form>
     </div>
 </body>
